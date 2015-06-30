@@ -2,7 +2,7 @@
 .da-slider{
 	width: 100%;
 	height:600px;
-    background: #666;
+	background: #666;
 	position: relative;
 	overflow:hidden;
 	-webkit-transition: background-position 1s ease-out 0.3s;
@@ -49,7 +49,7 @@
 .da-slide h2 {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
-	color: #E1E1E1;
+	color: #ccc;
 	width: 80%;
 	top: 60px;
 	font-size: 2.3em;
@@ -59,8 +59,8 @@
 }
 .da-slide p{
 	font-family: 'Open Sans', sans-serif;
-    top: 140px;
-	color:#A7A7A7;
+	top: 140px;
+	color:#111;
 	font-size: 0.9725em;
 	height: 80px;
 	line-height: 40px;
@@ -83,7 +83,7 @@
 .da-slide .da-link{
 }
  .da-link:hover{
- 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #71b5d5), color-stop(1, #79bbff) );
+	 background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #71b5d5), color-stop(1, #79bbff) );
 	background:-moz-linear-gradient( center top, #71b5d5 5%, #79bbff 100% );
 	background-color:#71b5d5;
  }
@@ -801,7 +801,7 @@
 	.da-dots {
 		bottom: 19px;
 	}
-	
+
 }
 @media only screen and (max-width: 320px) and (min-width:240px) {
 	.da-dots {
